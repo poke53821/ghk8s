@@ -2,7 +2,7 @@ pipeline {
     agent { label 'master' } 	
 	environment {
 		
-		        PROJECT_ID = 'p001'
+		        PROJECT_ID = 'p001-346908'
                 CLUSTER_NAME = 'cluster-1'
                 LOCATION = 'europe-west3-c'
                 CREDENTIALS_ID = 'p001'		
