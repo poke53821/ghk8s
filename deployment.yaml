@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: hellonode
-     image: image=k8s.gcr.io/echoserver:1.4
+     image: k8s.gcr.io/echoserver:1.4
      ports:
      - containerPort: 8080
 
